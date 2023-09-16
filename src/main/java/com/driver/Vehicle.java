@@ -22,6 +22,10 @@ public class Vehicle {
         return currentSpeed;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public int getCurrentDirection() {
         return currentDirection;
     }
